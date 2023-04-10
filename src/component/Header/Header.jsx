@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -7,9 +8,9 @@ const Header = () => {
 
                 <h2 className='text-3xl font-bold'>jobHolder</h2>
                 <div className='text-1xl text-gray-600 flex justify-around gap-12'>
-                    <p>Statistics</p>
-                    <p>Applied Jobs</p>
-                    <p> Blog</p>
+                    <Link to="/Statistics">Statistics</Link>
+                    <Link to="/AppliedJob">Applied Jobs</Link>
+                    <Link to="/Blog">Blog</Link>
                 </div>
                 <button className='bg-purple-500 text-white font-bold p-2'>Star Applying</button>
 
@@ -25,7 +26,7 @@ const Header = () => {
                 </div>
             </section>
 
-            <section className='mt-12'>
+            {/* <section className='mt-12'>
                 <div className='text-center'>
                     <h2 className='text-3xl font-semibold'>Job Category List</h2>
                     <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
@@ -33,26 +34,26 @@ const Header = () => {
                 <div className='flex justify-between mt-12'>
                     <div className='bg-slate-100 w-60 h-40 p-8 rounded'>
                         <img src="/src/component/Images/Icons/accounts 1.png" alt="" />
-                        <h4 className='font-bold mt-4 mb-1'>Account & Finance</h4>
-                        <p>300 Jobs Available</p>
+                        <h4 className='font-bold mt-4 mb-1'></h4>
+                        <p></p>
                     </div>
                     <div className='bg-slate-100 w-60 h-40 p-8 rounded'>
                         <img src="/src/component/Images/Icons/business 1.png" alt="" />
-                        <h4 className='font-bold mt-4 mb-1'>Creative Design</h4>
-                        <p>100+ Jobs Available</p>
+                        <h4 className='font-bold mt-4 mb-1'></h4>
+                        <p></p>
                     </div>
                     <div className='bg-slate-100 w-60 h-40 p-8 rounded'>
                         <img src="/src/component/Images/Icons/social-media 1.png" alt="" />
-                        <h4 className='font-bold mt-4 mb-1'>Marketing & Sales</h4>
-                        <p>150 Jobs Available</p>
+                        <h4 className='font-bold mt-4 mb-1'></h4>
+                        <p></p>
                     </div>
                     <div className='bg-slate-100 w-60 h-40 p-8 rounded'>
-                        <img src="/src/component/Images/Icons/chip 1.png" alt="" />
-                        <h4 className='font-bold mt-4 mb-1'>Engineering Job</h4>
-                        <p>224 Jobs Available</p>
+                        <img src= alt="" />
+                        <h4 className='font-bold mt-4 mb-1'></h4>
+                        <p></p>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
 
         </div>

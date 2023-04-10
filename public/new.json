@@ -1,0 +1,114 @@
+{
+    "jobs": [
+      {
+        "id": 1,
+        "company_logo": "https://example.com/logos/google.png",
+        "job_title": "Software Engineer",
+        "company_name": "Google",
+        "remote_or_onsite": "Remote",
+        "location": "San Francisco, CA",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$120,000 - $180,000 per year",
+        "job_description": "We are seeking a talented software engineer to join our team and help us build the next generation of Google products. You will work on complex projects, collaborate with cross-functional teams, and have the opportunity to make a significant impact on our business.",
+        "job_responsibility": "- Design, develop, and maintain high-quality software\n- Collaborate with cross-functional teams to deliver complex projects\n- Write clean, efficient, and well-documented code\n- Participate in code reviews and contribute to the improvement of our development process",
+        "educational_requirements": "Bachelor's or Master's degree in Computer Science, Software Engineering or related field",
+        "experiences": "3+ years of professional experience in software development",
+        "contact_information": {
+          "phone": "+1 (555) 123-4567",
+          "email": "jobs@google.com"
+        }
+      },
+      {
+        "id": 2,
+        "company_logo": "https://example.com/logos/facebook.png",
+        "job_title": "Product Manager",
+        "company_name": "Facebook",
+        "remote_or_onsite": "Onsite",
+        "location": "Menlo Park, CA",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$140,000 - $200,000 per year",
+        "job_description": "We are looking for an experienced product manager to join our team and help us build world-class products for our users. You will work on high-impact projects, collaborate with cross-functional teams, and have the opportunity to shape the future of Facebook.",
+        "job_responsibility": "- Define and execute product vision and strategy\n- Collaborate with cross-functional teams to drive product development\n- Conduct user research and gather feedback to inform product decisions\n- Monitor and analyze product metrics to improve user experience and drive growth",
+        "educational_requirements": "Bachelor's or Master's degree in Computer Science, Business Administration, or related field",
+        "experiences": "5+ years of professional experience in product management",
+        "contact_information": {
+          "phone": "+1 (555) 234-5678",
+          "email": "jobs@facebook.com"
+        }
+      },
+      {
+        "id": 3,
+        "company_logo":"https://www.edigitalagency.com.au/wp-content/uploads/netflix-logo-png-large.png",
+        "job_title": "Marketing Manager",
+        "company_name": "Netflix",
+        "remote_or_onsite": "Onsite",
+        "location": "New York",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$80,000 - $100,000",
+        "job_description": "We are seeking an experienced Marketing Manager to join our team...",
+        "job_responsibility": "1. Develop and implement marketing strategies...",
+        "educational_requirements": "Bachelor's degree in Marketing or related field",
+        "experiences": "5+ years of experience in marketing management",
+        "contact_information": {
+        "phone": "+1 (555) 555-5678",
+        "email": "jobs@example.com"
+        }
+        },
+        {
+            "id": 4,
+            "company_logo": "https://logos-world.net/wp-content/uploads/2020/10/Tesla-Logo.png",
+            "job_title": "Graphic Designer",
+            "company_name": "Tesla",
+            "remote_or_onsite": "Remote",
+            "location": "Any",
+            "fulltime_or_parttime": "Part-time",
+            "salary": "$25 - $50 per hour",
+            "job_description": "We are seeking a talented graphic designer to join our team...",
+            "job_responsibility": "1. Design and create visual content...",
+            "educational_requirements": "Bachelor's degree in Graphic Design or related field",
+            "experiences": "2+ years of experience in graphic design",
+            "contact_information": {
+            "phone": "+1 (555) 555-9012",
+            "email": "jobs@example.com"
+            }
+            },
+            {
+                "id": 5,
+                "company_logo": "https://images.template.net/76791/Free-Instagram-Logo-Vector-1.jpg",
+                "job_title": "Accountant",
+                "company_name": "Instagram",
+                "remote_or_onsite": "Onsite",
+                "location": "Chicago",
+                "fulltime_or_parttime": "Full-time",
+                "salary": "$60,000 - $80,000",
+                "job_description": "We are seeking an experienced accountant to join our team...",
+                "job_responsibility": "1. Manage financial records...",
+                "educational_requirements": "Bachelor's degree in Accounting or related field",
+                "experiences": "3+ years of experience in accounting",
+                "contact_information": {
+                "phone": "+1 (555) 555-3456",
+                "email": "jobs@example.com"
+                }
+                },
+                {
+                    "id": 6,
+                    "company_logo": "https://www.pngmart.com/files/4/Microsoft-Logo-PNG-Transparent-Image.png",
+                    "job_title": "Sales Manager",
+                    "company_name": "Microsoft",
+                    "remote_or_onsite": "Onsite",
+                    "location": "San Francisco",
+                    "fulltime_or_parttime": "Full-time",
+                    "salary": "$100,000 - $120,000",
+                    "job_description": "We are seeking an experienced Sales Manager to join our team...",
+                    "job_responsibility": "1. Develop and implement sales strategies...",
+                    "educational_requirements": "Bachelor's degree in Business or related field",
+                    "experiences": "5+ years of experience in sales management",
+                    "contact_information": {
+                    "phone": "+1 (555) 555-5678",
+                    "email": "jobs@example.com"
+                    }
+                    }
+                    
+                
+    ]
+}
