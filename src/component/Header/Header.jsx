@@ -14,7 +14,7 @@ const Header = () => {
                 <button className='bg-purple-500 text-white font-bold p-2'>Star Applying</button>
 
             </div>
-            <section className='flex justify-between  bg-slate-50'>
+            <section className='flex justify-between  bg-slate-50 rounded p-8'>
                 <div className='mt-16 p-4'>
                     <h1 className='text-5xl font-bold my-8'>One Step <br /> Closer To Your <br /> <span className='text-purple-500'>Dream Job</span></h1>
                     <p className='my-8'>Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
@@ -25,29 +25,30 @@ const Header = () => {
                 </div>
             </section>
 
-            <section>
-                <div><h2>Job Category List</h2>
+            <section className='mt-12'>
+                <div className='text-center'>
+                    <h2 className='text-3xl font-semibold'>Job Category List</h2>
                     <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
                 </div>
-                <div>
-                    <div>
+                <div className='flex justify-between mt-12'>
+                    <div className='bg-slate-100 w-60 h-40 p-8 rounded'>
                         <img src="/src/component/Images/Icons/accounts 1.png" alt="" />
-                        <h4>Account & Finance</h4>
+                        <h4 className='font-bold mt-4 mb-1'>Account & Finance</h4>
                         <p>300 Jobs Available</p>
                     </div>
-                    <div>
+                    <div className='bg-slate-100 w-60 h-40 p-8 rounded'>
                         <img src="/src/component/Images/Icons/business 1.png" alt="" />
-                        <h4>Creative Design</h4>
+                        <h4 className='font-bold mt-4 mb-1'>Creative Design</h4>
                         <p>100+ Jobs Available</p>
                     </div>
-                    <div>
+                    <div className='bg-slate-100 w-60 h-40 p-8 rounded'>
                         <img src="/src/component/Images/Icons/social-media 1.png" alt="" />
-                        <h4>Marketing & Sales</h4>
+                        <h4 className='font-bold mt-4 mb-1'>Marketing & Sales</h4>
                         <p>150 Jobs Available</p>
                     </div>
-                    <div>
+                    <div className='bg-slate-100 w-60 h-40 p-8 rounded'>
                         <img src="/src/component/Images/Icons/chip 1.png" alt="" />
-                        <h4>Engineering Job</h4>
+                        <h4 className='font-bold mt-4 mb-1'>Engineering Job</h4>
                         <p>224 Jobs Available</p>
                     </div>
                 </div>
