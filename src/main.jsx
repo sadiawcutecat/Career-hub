@@ -7,10 +7,11 @@ import {
 } from "react-router-dom";
 import Main from './component/Layout/Main';
 import Home from './component/Home/Home';
-import HomePart from './component/HomePart/HomePart';
+
 import Statistics from './component/Statistics/Statistics';
 import AppliedJob from './component/Applied-Job/AppliedJob';
 import Blog from './component/Blog/Blog';
+import Error from './component/NotFound/Error';
 
 
 
@@ -48,6 +49,10 @@ const routers = createBrowserRouter([
         
        
       },
+      // {
+      //   path: '*',
+      //   element:<Error></Error>
+      // }
 
     ]
 
