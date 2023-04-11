@@ -13,6 +13,16 @@ const Blog = () => {
 
                 </p>
             </div>
+            <div className='my-5'>
+                <h1 className='text-slate-700 text-3xl mb-3'>What is a custom hook?</h1>
+                <p>A custom hook is a special JavaScript function whose name starts with ‘use’ and can be used to call other hooks. Let’s take a look at some major differences between a custom React JS hook and React JS components: <br />
+
+                    <b>A custom hook does not require a specific signature.</b><br />
+                    <b>A software developer can choose what argument the custom hook has and what should the argument return.</b><br />
+                    <b>A custom hook always starts with the name ‘use’.</b>
+                </p>
+            </div>
+
          
 
 
