@@ -5,7 +5,7 @@ import { useLoaderData } from 'react-router-dom';
 const HomePart = () => {
     const jobFeatures = useLoaderData();
     console.log(jobFeatures.jobFeature.jobs);
-    const [showCount, setShowCount] = useState(4);
+    // const [showCount, setShowCount] = useState(4);
     // const [featureDatas, setFeatureDatas] = useState([])
     // useEffect(() => {
     //     fetch('/public/jobFeature.json')
@@ -23,9 +23,9 @@ const HomePart = () => {
             </div>
             <div className='flex justify-center mt-8'>
 
-                <div class=" grid grid-rows-3 grid-flow-col gap-1">
+                <div class=" grid grid-rows-3 grid-flow-col gap-1 ">
                     {
-                        jobFeatures.jobFeature.jobs.slice(0, showCount).map(jobfeature => <JobFeatureCart
+                        jobFeatures.jobFeature.jobs.map(jobfeature => <JobFeatureCart
                             key={jobfeature.id}
                             JobFeatureCart={jobfeature}
                         ></JobFeatureCart>)

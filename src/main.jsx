@@ -12,6 +12,7 @@ import Statistics from './component/Statistics/Statistics';
 import AppliedJob from './component/Applied-Job/AppliedJob';
 import Blog from './component/Blog/Blog';
 import Error from './component/NotFound/Error';
+import ViewDetails from './component/ViewDetails/ViewDetails';
 
 
 // {
@@ -59,12 +60,12 @@ const routers = createBrowserRouter([
       //   loader: () => fetch('jobList.json'),
       // },
 
-      // {
-      //   path: '/',
-      //   element: <HomePart></HomePart>,
-      //   loader: () => fetch('jobFeature.json'),
+      {
+        path:'/ViewDetails',
+        element: <ViewDetails></ViewDetails>,
+        loader: () => fetch('jobFeature.json'),
 
-      // },
+      },
       {
         path: '/Statistics',
         element: <Statistics></Statistics>
