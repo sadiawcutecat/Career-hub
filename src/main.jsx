@@ -81,10 +81,10 @@ const routers = createBrowserRouter([
 
 
       },
-      // {
-      //   path: '*',
-      //   element:<Error></Error>
-      // }
+      {
+        path: '*',
+        element:<Error></Error>
+      }
 
     ]
   }
