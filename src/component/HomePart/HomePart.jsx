@@ -1,9 +1,10 @@
 import React from 'react';
 import JobFeatureCart from '../JobFeatureCart/JobFeatureCart';
+import { useLoaderData } from 'react-router-dom';
 
 const HomePart = () => {
-    // const jobFeatures = useLoaderData();
-    // console.log(jobFeatures);
+    const jobFeatures = useLoaderData();
+    console.log(jobFeatures.jobFeature.jobs);
  // const [featureDatas, setFeatureDatas] = useState([])
     // useEffect(() => {
     //     fetch('/public/jobFeature.json')
@@ -13,14 +14,16 @@ const HomePart = () => {
     // }, [])
 
     return (
-        <div>
-            <h1>here it is:{jobFeatures.length}</h1>
+        <div className='flex justify-'>
+
+          
             {
-                jobFeatures.map(jobFeature => <JobFeatureCart
-                key={jobFeature.id}
-                JobFeatureCart={JobFeatureCart}
+                jobFeatures.jobFeature.jobs.map(jobfeature => <JobFeatureCart
+                key={jobfeature.id}
+                JobFeatureCart={jobfeature}
                 ></JobFeatureCart>)
             }
+           
         </div>
     );
 };

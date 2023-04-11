@@ -6,6 +6,7 @@ import HeaderPart from '../HeaderPart/HeaderPart';
 const Home = () => {
 
     const jobCategoryLists = useLoaderData();
+    // console.log(jobCategoryLists);
 
     return (
         <div>
@@ -18,7 +19,7 @@ const Home = () => {
 
                 <div className='flex justify-center gap-8 mt-8'>
                     {
-                        jobCategoryLists.map(jobCategoryList => <JobList
+                        jobCategoryLists.jobList.map(jobCategoryList => <JobList
                             key={jobCategoryList.id}
                             jobCategoryList={jobCategoryList}
                         ></JobList>)
