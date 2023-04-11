@@ -16,7 +16,7 @@ const Home = () => {
                     <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
                 </div>
 
-                <div className='flex justify-around mt-8'>
+                <div className='flex justify-center gap-8 mt-8'>
                     {
                         jobCategoryLists.map(jobCategoryList => <JobList
                             key={jobCategoryList.id}
