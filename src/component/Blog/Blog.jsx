@@ -22,6 +22,20 @@ const Blog = () => {
                     <b>A custom hook always starts with the name ‘use’.</b>
                 </p>
             </div>
+            <div className='my-5'>
+                <h1 className='text-slate-700 text-3xl mb-3'>What is useRef?</h1>
+                <p> The useRef Hook allows you to persist values between renders.
+                    It can be used to store a mutable value that does not cause a re-render when updated.
+                    It can be used to access a DOM element directly.
+                </p>
+
+                <p>The useRef returns a mutable ref object. This object has a property called .current. The value is persisted in the refContainer.current property. These values are accessed from the current property of the returned object. The .current property could be initialised to the passed argument initialValue e.g. useRef(initialValue). The object can persist a value for a full lifetime of the component. </p>
+            </div>
+            <div className='my-5'>
+                <h1 className='text-slate-700 text-3xl mb-3'>What is useMemo?</h1>
+                <p>useMemo() is a function that returns a memoized value of a passed in resource-intensive function. It is very useful in optimizing the performance of a React component by eliminating repeating heavy computations. The useMemo Hook can be used to keep expensive, resource intensive functions from needlessly running. In this example, we have an expensive function that runs on every render. When changing the count or adding a todo, you will notice a delay in execution.</p>
+            </div>
+
 
          
 
