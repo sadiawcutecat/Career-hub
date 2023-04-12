@@ -6,7 +6,7 @@ import HeaderPart from '../HeaderPart/HeaderPart';
 const Home = () => {
 
     const jobCategoryLists = useLoaderData();
-    // console.log(jobCategoryLists);
+  
 
     return (
         <div>

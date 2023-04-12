@@ -51,15 +51,6 @@ const routers = createBrowserRouter([
           return { jobList, jobFeature };
         }
       },
-      
-      
-      // {
-      //   path: '/',
-      //   element: <Home></Home>,
-       
-      //   loader: () => fetch('jobList.json'),
-      // },
-
       {
         path:'/ViewDetails/:jobId',
         element: <ViewDetails></ViewDetails>,
@@ -73,7 +64,8 @@ const routers = createBrowserRouter([
       },
       {
         path: '/AppliedJob',
-        element: <AppliedJob></AppliedJob>
+        element: <AppliedJob></AppliedJob>,
+        // loader: () => fetch('jobFeature.json'),
 
       },
       {
