@@ -33,8 +33,8 @@ const routers = createBrowserRouter([
         ),
         loader: async () => {
           const [jobList, jobFeature] = await Promise.all([
-            fetch('jobList.json').then(res => res.json()),
-            fetch('jobFeature.json').then(res => res.json())
+            fetch('/jobList.json').then(res => res.json()),
+            fetch('/jobFeature.json').then(res => res.json())
           ]);
       
           return { jobList, jobFeature };

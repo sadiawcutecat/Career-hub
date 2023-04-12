@@ -10,7 +10,7 @@ const HeaderPart = () => {
                     <button className='bg-purple-500 text-white font-bold p-3'>Get Started</button>
                 </div>
                 <div>
-                    <img className='h-auto w-auto mt-5' src="/src/Images/P3OLGJ1 copy 1.png" alt="" />
+                    <img className='h-auto w-auto mt-5' src="./Images/P3OLGJ1-copy-1.png" alt="" />
                 </div>
             </section>
             

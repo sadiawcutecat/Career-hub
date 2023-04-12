@@ -6,7 +6,8 @@ const JobDetails = ({JobDetails}) => {
     const { company_logo, job_title, company_name, remote_or_onsite, location, fulltime_or_parttime, salary, job_description, job_responsibility, educational_requirements, experiences, contact_information, phone, email } = JobDetails[0];
     console.log(JobDetails[0]);
     return (
-        <div className='flex justify-evenly items-center'>
+        <div className="md:container md:mx-auto">   
+        <div className='flex justify-evenly items-center '>
             <div className='mb-16'>
               <p className='mb-5'><span className='font-bold'>Job Description:</span>{job_description}</p>
               <p className='my-5'><span className='font-bold'>Job Responsibility:</span>{job_responsibility}</p>
@@ -36,6 +37,8 @@ const JobDetails = ({JobDetails}) => {
             </div>
             
         </div>
+        </div>
+
     );
 };
 
