@@ -15,18 +15,7 @@ import Error from './component/NotFound/Error';
 import ViewDetails from './component/ViewDetails/ViewDetails';
 
 
-// {
-//   path: '/',
-//   element: (
-//     <>
-//       <Home />
-//       <HomePart />
-//     </>
-//   ),
-//   loader: () => Promise.all([fetch('jobList.json'), fetch('jobFeature.json')])
-//              .then(([jobListResponse, jobFeatureResponse]) => Promise.all([jobListResponse.json(), jobFeatureResponse.json()]))
-//              .then(([jobListData, jobFeatureData]) => ({ jobListData, jobFeatureData })),
-// }
+
 
 
 const routers = createBrowserRouter([

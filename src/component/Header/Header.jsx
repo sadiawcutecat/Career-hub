@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <div>
-            <div className='flex justify-between gap-x-60  bg-slate-50 p-2'>
+            <div className='flex justify-between gap-x-60  bg-slate-50 px-16 py-5'>
 
                 <h2 className='text-3xl font-bold'>jobHolder</h2>
                 <div className='text-1xl text-gray-600 flex justify-around gap-12'>
