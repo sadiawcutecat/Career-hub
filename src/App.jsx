@@ -9,9 +9,7 @@ function App() {
 
   return (
     <div className="App">
-     <Hea
-     
-     der></Header>
+     <Header></Header>
     </div>
   )
 }

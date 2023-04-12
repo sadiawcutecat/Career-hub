@@ -1,10 +1,11 @@
-import React,{ useState } from 'react';
+import React, { useState } from 'react';
 import JobFeatureCart from '../JobFeatureCart/JobFeatureCart';
 import { useLoaderData } from 'react-router-dom';
 
 const HomePart = () => {
     const jobFeatures = useLoaderData();
-   
+    const [visibleItems, setVisibleItems] = useState(4);
+
 
     return (
 
@@ -15,23 +16,23 @@ const HomePart = () => {
             </div>
             <div className='flex justify-center mt-8'>
 
-                <div class=" grid grid-rows-3 grid-flow-col gap-1 ">
+                {/* <div class=" grid grid-rows-3 grid-flow-col gap-1 "> */}
+                <div className="grid grid-cols-2 gap-4">
                     {
-                        jobFeatures.jobFeature.jobs.map(jobfeature => <JobFeatureCart
+                        jobFeatures.jobFeature.jobs.slice(0, visibleItems).map(jobfeature => <JobFeatureCart
                             key={jobfeature.id}
                             JobFeatureCart={jobfeature}
                         ></JobFeatureCart>)
                     }
 
                 </div>
-                
+
             </div>
             <div className='flex justify-center mt-5'>
-            <button className='bg-purple-500 text-white font-bold p-3'>See All Jobs</button>
+                <button className='bg-purple-500 text-white font-bold p-3' onClick={() => setVisibleItems(jobFeatures.jobFeature.jobs.length)}>
+                    See All Jobs</button>
             </div>
         </div>
-
-
 
     );
 };
