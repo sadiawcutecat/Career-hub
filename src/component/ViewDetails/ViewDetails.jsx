@@ -1,19 +1,27 @@
 import React from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { useLoaderData, useParams } from 'react-router-dom';
 import JobDetails from './JobDetails';
 
 const ViewDetails = () => {
     const jobDetails = useLoaderData();
-    console.log(jobDetails);
+    const {jobId} = useParams();
+    const job = jobDetails.jobs.filter(job =>job.id.toString() == jobId );
+        
+        console.log(job); 
+    
+    
+
+    
     return (
         <div>
-           <h2 className='text-3xl font-bold text-center mb-12'>Job Details</h2>
+           <h2 className='text-3xl font-bold text-center mb-16 mt-8'>Job Details</h2>
            {
-            jobDetails.jobs.map(jobDetail => <JobDetails
-            key={jobDetail.id}
-            JobDetails={jobDetail}
             
-            ></JobDetails>)
+            <JobDetails
+                key={job.id}
+                JobDetails={job}
+                
+                ></JobDetails>
            }
         </div>
     );

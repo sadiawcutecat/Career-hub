@@ -4,7 +4,7 @@ import { faLocationDot, faCircleDollarToSlot } from '@fortawesome/free-solid-svg
 import { Link } from 'react-router-dom';
 
 const JobFeatureCart = ({ JobFeatureCart }) => {
-    const { company_logo, job_title, company_name, remote_or_onsite, location, fulltime_or_parttime, salary, job_description, job_responsibility, educational_requirements, experiences, contact_information, phone, email } = JobFeatureCart;
+    const { id, company_logo, job_title, company_name, remote_or_onsite, location, fulltime_or_parttime, salary, job_description, job_responsibility, educational_requirements, experiences, contact_information, phone, email } = JobFeatureCart;
     // console.log(JobFeatureCart);
     return (
         <div>
@@ -22,7 +22,7 @@ const JobFeatureCart = ({ JobFeatureCart }) => {
                     <p><FontAwesomeIcon icon={faCircleDollarToSlot} /> Salary: {salary}</p>
                 </div>
                 <div className='mt-8'>
-                    <Link to= "/ViewDetails" className='bg-purple-500 text-white font-bold p-3 '>View Details</Link>
+                    <Link to={`/ViewDetails/${id}`} className='bg-purple-500 text-white font-bold p-3 '>View Details</Link>
                 </div>
             </div>
         </div >

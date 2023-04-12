@@ -4,15 +4,7 @@ import { useLoaderData } from 'react-router-dom';
 
 const HomePart = () => {
     const jobFeatures = useLoaderData();
-    console.log(jobFeatures.jobFeature.jobs);
-    // const [showCount, setShowCount] = useState(4);
-    // const [featureDatas, setFeatureDatas] = useState([])
-    // useEffect(() => {
-    //     fetch('/public/jobFeature.json')
-    //         .then(res => res.json())
-    //         .then(data => setFeatureData(data))
-    //     console.log(data);
-    // }, [])
+   
 
     return (
 
